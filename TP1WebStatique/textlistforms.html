@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> textlistForms </title>
+    </head>
+    <body>
+        Textes&amp;Listes&amp;Formulaires |
+        <a href="./tables.html">Tableaux |</a>
+        <a href="./medias.html">Médias</a>
+
+        <hr>
+        
+        <ol>
+            <li><u>Etudiant</u></li>
+            <li><u>Enseignant</u></li>
+        <li><u>Abréviations</u></li>
+        </ol>
+        <br>
+        <hr>
+        <h2>1. Etudiant</h2>
+        <form action="textlistforms.html" method="get">
+            Prénom:<input type="text" name="prenom">
+            Nom:<input type="text" name="nom"><br>
+            Année d&apos;études
+                <input type="radio" name="annee" value="1A" checked>1A
+                <input type="radio" name="annee" value="2A">2A<br>
+            Remarques :<br>
+            <textarea name="Remarques" rows="5" cols="50"></textarea><br><br>
+            <input type="submit" value="Valider">
+        </form>
+        <hr>
+        <h2>2. Enseignant</h2>
+        <form action="medias.html" method="POST">
+            Prénom:<br>
+            <input type="text" name="prenom"><br>
+            Nom:<br>
+            <input type="text" name="nom"><br>
+            Site:<br>
+            <select name="Site">
+                <option>Brest</option>
+                <option>Rennes</option>
+                <option>Nantes</option>
+            </select>
+            <br>
+            Mot de passe:<br>
+            <input type="password" name="password"><br><br>
+            <input type="submit" value="Valider">
+        </form>
+        <hr>
+        <h2>3. Abréviations</h2>
+        <dl>
+            <dt><b>ISEN</b></dt>
+            <dd>Institut supérieur de l'électronique et du numérique</dd>
+            <dt><b>HTML</b></dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+        <hr> 
+    </body>
+</html>

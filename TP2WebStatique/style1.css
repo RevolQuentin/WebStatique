@@ -1,0 +1,55 @@
+body {font-family: Verdana, sans-serif;
+    background-color:  #D2DC9D;
+    background-image: url("images/blackgoose.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;}
+
+h1 {font-family: 'Marko one', Georgia;
+    color: #993399;
+    text-shadow: .2em .2em silver;}
+
+#div1 {text-align: center;
+    background-color: white;
+    opacity: 0.5;
+    background-image: url(images/purpledot.png),url(images/purpledot.png),url(images/gooseshadow.png); 
+    background-position: left top,right top, 90% 100%;
+    background-repeat: repeat-y,repeat-y,no-repeat;}
+
+a:link {color: #993399;}
+a:hover{color: #C700F2;background-color: #FFC0CB;}
+a:visited{color: #937393;}
+
+#info {color: #808080;
+       font-style: italic;}
+
+.label {color:  #808080;
+    font-weight: bolder;}
+
+li {list-style-type: none;}
+
+h2 {color: #CC6600;
+    text-align: center;
+    letter-spacing: 8px;}
+
+dt {color: #A0522D;}
+
+strong {color: #FF6347;}
+
+.price {font-family: Georgia;
+        font-style: italic;
+        color:  #808080;}
+
+.c1 {list-style: lower-roman;}
+
+.c2 {list-style: circle;}
+
+.c3 {text-indent: 2em;
+    list-style-type: disc;
+    list-style-position: inside;}
+
+.c4 {list-style-image: url("images/bull.PNG");
+    list-style-position: outside;
+    font-size: xx-large;}
+
+.warning {color:  #FF0000;}
